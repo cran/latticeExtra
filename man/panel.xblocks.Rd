@@ -63,7 +63,7 @@ panel.xblocks(x, ...)
   }
   \item{vjust}{
     vertical justification of the blocks relative to \code{block.y}. See
-    \code{\link{grid.rect}}.
+    \code{\link[grid]{rectGrob}}.
   }
   \item{name}{
     a name for the grob (\pkg{grid} object).
