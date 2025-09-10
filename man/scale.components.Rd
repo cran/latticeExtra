@@ -40,7 +40,7 @@ yscale.components.subticks(lim, ..., n = 5, n2 = n * 5, min.n2 = n + 5)
 \arguments{
   \item{lim}{ scale limits. }
   \item{\dots}{
-    passed on to \code{\link{xscale.components.default}} or
+    passed on to \code{\link[lattice]{xscale.components.default}} or
     \code{yscale.components.default}. 
   }
   \item{logsc}{
@@ -69,7 +69,7 @@ yscale.components.subticks(lim, ..., n = 5, n2 = n * 5, min.n2 = n + 5)
 \details{
   These functions are intended to be passed to the
   \code{xscale.components} or \code{yscale.components} arguments of
-  high-level lattice plots. See \code{\link{xscale.components.default}}.
+  high-level lattice plots. See \code{\link[lattice]{xscale.components.default}}.
 
   \code{xscale.components.logpower} draws tickmarks at the same
   locations as the default, but labels them more smartly using

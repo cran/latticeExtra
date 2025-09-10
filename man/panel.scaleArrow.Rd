@@ -32,10 +32,10 @@ panel.scaleArrow(x = unit(0:1, "npc"), y = unit(0:1, "npc"),
     label to place on the mid point of the scale, over-riding the default.
   }
   \item{angle, length, unit, type, ends}{
-    specification of the arrow style; see \code{\link{panel.arrows}}.
+    specification of the arrow style; see \code{\link[lattice]{panel.arrows}}.
   }
   \item{\dots}{
-    further arguments passed to \code{\link{panel.text}}.
+    further arguments passed to \code{\link[lattice]{panel.text}}.
     You will need at least the \code{pos} or \code{adj} arguments.
   }
   \item{col, fill, alpha, lty, lwd}{
@@ -50,7 +50,7 @@ panel.scaleArrow(x = unit(0:1, "npc"), y = unit(0:1, "npc"),
   Felix Andrews \email{felix@nfrac.org}
 }
 \seealso{
-  \code{\link{panel.abline}},
+  \code{\link[lattice]{panel.abline}},
   \code{\link{grid.text}}
 }
 \examples{

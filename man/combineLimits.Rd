@@ -76,7 +76,7 @@ combineLimits(x, margin.x = 2L, margin.y = 1L,
 }
 \author{ Deepayan Sarkar }
 
-\seealso{ \code{\link{Lattice}}, \code{\link{xyplot}} }
+\seealso{ \code{\link[lattice]{Lattice}}, \code{\link[lattice]{xyplot}} }
 
 \examples{
 

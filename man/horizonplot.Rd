@@ -55,7 +55,7 @@ prepanel.horizonplot(x, y, ..., horizonscale = NA,
     well as to the default panel function \code{\link{panel.horizonplot}}
     can be supplied directly to \code{horizonplot}.
     In typical usage, the method of \code{xyplot} called will be
-    \code{\link{xyplot.ts}}.
+    \code{\link[lattice]{xyplot.ts}}.
   }
   \item{nbands}{ Integer giving the number of discrete color bands used
     (for both negative and positive deviations from the origin). }
@@ -80,7 +80,7 @@ prepanel.horizonplot(x, y, ..., horizonscale = NA,
     if \code{colorkey = TRUE} a suitable color scale bar is constructed
     using the values of \code{origin} and \code{horizonscale}. Further
     options can be passed to \code{colorkey} in list form, as with
-    \code{\link{levelplot}}. 
+    \code{\link[lattice]{levelplot}}. 
   }
   \item{panel}{ function to render the graphic given the data.  This is
     the function that actually implements the display.  }
@@ -95,7 +95,7 @@ prepanel.horizonplot(x, y, ..., horizonscale = NA,
   }
   \item{par.strip.text}{
     graphical parameters for the strip text; see
-    \code{\link{xyplot}}. One notable argument here is
+    \code{\link[lattice]{xyplot}}. One notable argument here is
     \code{lines}, allowing multi-line text.
   }
   \item{colorkey.digits}{
@@ -163,9 +163,9 @@ prepanel.horizonplot(x, y, ..., horizonscale = NA,
 
 \value{
   An object of class \code{"trellis"}. The
-  \code{\link[=update.trellis]{update}} method can be used to
+  \code{\link[lattice:update.trellis]{update}} method can be used to
   update components of the object and the
-  \code{\link[=print.trellis]{print}} method (usually called by
+  \code{\link[lattice:print.trellis]{print}} method (usually called by
   default) will plot it on an appropriate plotting device.
 }
 
@@ -180,8 +180,8 @@ prepanel.horizonplot(x, y, ..., horizonscale = NA,
 }
 
 \seealso{
-  \code{\link{Lattice}},
-  \code{\link{xyplot.ts}},
+  \code{\link[lattice]{Lattice}},
+  \code{\link[lattice]{xyplot.ts}},
   \code{\link{panel.xyarea}}
 }
 

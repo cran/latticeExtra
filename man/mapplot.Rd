@@ -69,7 +69,7 @@ panel.mapplot(x, y, map, breaks, colramp, exact = FALSE, lwd = 0.5, \dots)
     color.  }
   \item{lwd}{line width} 
   \item{\dots}{ Further arguments passed on to the underlying engine.
-    See \code{\link{xyplot}} for details.  }
+    See \code{\link[lattice]{xyplot}} for details.  }
 }
 \value{
   An object of class \code{"trellis"}.
@@ -84,7 +84,7 @@ panel.mapplot(x, y, map, breaks, colramp, exact = FALSE, lwd = 0.5, \dots)
   are doing.
 
 }
-\seealso{ \code{\link{Lattice}}  }
+\seealso{ \code{\link[lattice]{Lattice}}  }
 \examples{
 
 ## Requires the 'maps' and 'mapproj' packages:

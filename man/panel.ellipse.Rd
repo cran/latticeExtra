@@ -44,7 +44,7 @@ panel.ellipse(x, y, groups = NULL,
   }
   \item{\dots}{
     Further arguments, typically graphical parameters.  Passed on to
-    \code{\link{panel.xyplot}}.  
+    \code{\link[lattice]{panel.xyplot}}.  
   }
   \item{type, pch, cex}{
     Parameters that are ignored; these are present only to make sure

@@ -86,8 +86,8 @@ panel.xblocks(x, ...)
   Felix Andrews \email{felix@nfrac.org}
 }
 \seealso{
-  \code{\link{xyplot.ts}},
-  \code{\link{panel.rect}},
+  \code{\link[lattice]{xyplot.ts}},
+  \code{\link[lattice]{panel.rect}},
   \code{\link{grid.rect}}
 }
 \examples{

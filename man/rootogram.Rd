@@ -131,13 +131,13 @@ panel.rootogram(x, y = table(x),
   John W. Tukey (1972) Some graphic and semi-graphic displays. In
   T. A. Bancroft (Ed) \emph{Statistical Papers in Honor of George
   W. Snedecor}, pp. 293--316.  Available online at
-  \url{https://www.edwardtufte.com/tufte/tukey}
+  \url{https://www.edwardtufte.com/notebook/john-tukey-classic-paper-on-statistical-graphics/}
 
 }
 
 \author{ Deepayan Sarkar \email{deepayan.sarkar@gmail.com}}
 \seealso{
-  \code{\link{xyplot}}
+  \code{\link[lattice]{xyplot}}
 }
 
 \examples{

@@ -23,7 +23,7 @@ useOuterStrips(x,
   \item{strip, strip.left}{ A function, character string or logical that
     would be appropriate \code{strip} and \code{strip.left} arguments
     respectively in a high level lattice function call (see
-    \code{\link{xyplot}}) }
+    \code{\link[lattice]{xyplot}}) }
   \item{strip.lines, strip.left.lines}{ height of strips in number of
     lines; helpful for multi-line text or mathematical annotation in
     strips. }
@@ -50,8 +50,7 @@ useOuterStrips(x,
 }
 \author{ Deepayan Sarkar }
 
-\seealso{ \code{\link{Lattice}},
-  \code{\link{xyplot}} }
+\seealso{ \code{\link[lattice]{Lattice}}, \code{\link[lattice]{xyplot}} }
 
 \examples{
 

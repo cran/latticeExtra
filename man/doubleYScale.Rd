@@ -44,7 +44,7 @@ doubleYScale(obj1, obj2, use.style = TRUE,
   \item{text, auto.key, points, lines, \dots}{
     if non-NULL, add a \code{key} to the display, using entries named by
     \code{text}. Further arguments are passed on to
-    \code{\link{simpleKey}} at plot time.
+    \code{\link[lattice]{simpleKey}} at plot time.
   }
   \item{under}{
     if TRUE, draw \code{obj2} under \code{obj1}.

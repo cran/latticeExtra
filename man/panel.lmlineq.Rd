@@ -5,8 +5,8 @@
   Draw a line with a label, by default its equation
 }
 \description{
-  This is an extension of the panel functions \code{\link{panel.abline}} and
-  \code{\link{panel.lmline}} to also draw a label on the line. The
+  This is an extension of the panel functions \code{\link[lattice]{panel.abline}} and
+  \code{\link[lattice]{panel.lmline}} to also draw a label on the line. The
   default label is the line equation, and optionally the R squared value
   of its fit to the data points.
 }
@@ -38,21 +38,21 @@ panel.lmlineq(x, y, ...)
     arguments \code{h} or \code{v}, respectively.
     The first argument (\code{a}) can also be a model object produced by
     \code{\link{lm}}.
-    See \code{\link{panel.abline}} for more details.
+    See \code{\link[lattice]{panel.abline}} for more details.
   }
   \item{pos, offset}{
-    passed on to \code{\link{panel.text}}.
+    passed on to \code{\link[lattice]{panel.text}}.
     For \code{pos}: 1 = below, 2 = left, 3 = above, 4 = right,
     and the \code{offset} (in character widths) is applied.
   }
   \item{adj}{
-    passed on to \code{\link{panel.text}}.
+    passed on to \code{\link[lattice]{panel.text}}.
     c(0,0) = above right, c(1,0) = above left,
     c(0,1) = below right, c(1,1) = below left;
     offset does not apply when using \code{adj}.
   }
   \item{fontfamily}{
-    passed on to \code{\link{panel.text}}.
+    passed on to \code{\link[lattice]{panel.text}}.
   }
   \item{at}{
     position of the equation as a fractional distance along the line.
@@ -105,8 +105,8 @@ panel.lmlineq(x, y, ...)
       sep = " (", sep.end = ")")}.
   }
   \item{\dots, col, col.text, col.line}{
-    passed on to \code{\link{panel.abline}} and
-    \code{\link{panel.text}}.
+    passed on to \code{\link[lattice]{panel.abline}} and
+    \code{\link[lattice]{panel.text}}.
     Note that \code{col} applies to both text and line; \code{col.text}
     applies to the equation only, and \code{col.line} applies to line only.
   }
@@ -122,8 +122,8 @@ panel.lmlineq(x, y, ...)
   Felix Andrews \email{felix@nfrac.org}
 }
 \seealso{
-  \code{\link{panel.abline}},
-  \code{\link{panel.text}},
+  \code{\link[lattice]{panel.abline}},
+  \code{\link[lattice]{panel.text}},
   \code{\link{lm}},
   \code{\link{plotmath}}
 }

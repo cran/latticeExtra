@@ -29,10 +29,10 @@
   \item{x}{ an \code{\link{stl}} object. }
   \item{data}{ ignored. }
   \item{outer, layout, strip, strip.left}{
-    passed to \code{\link{xyplot.ts}}.
+    passed to \code{\link[lattice]{xyplot.ts}}.
   }
   \item{as.table, ylab, between, panel, ...}{
-    passed to \code{\link{xyplot.ts}}.
+    passed to \code{\link[lattice]{xyplot.ts}}.
   }
 }
 
@@ -44,20 +44,18 @@
 
 \value{
   An object of class \code{"trellis"}. The
-  \code{\link[=update.trellis]{update}} method can be used to
+  \code{\link[lattice:update.trellis]{update}} method can be used to
   update components of the object and the
-  \code{\link[=print.trellis]{print}} method (usually called by
+  \code{\link[lattice:print.trellis]{print}} method (usually called by
   default) will plot it on an appropriate plotting device.
 }
-
-% \references{ ~put references to the literature/web site here ~ }
 
 \author{ Deepayan Sarkar \email{deepayan.sarkar@r-project.org} }
 
 \seealso{
   \code{\link{stl}},
-  \code{\link{xyplot.ts}},
-  \code{\link{xyplot}}
+  \code{\link[lattice]{xyplot.ts}},
+  \code{\link[lattice]{xyplot}}
 }
 
 

@@ -29,7 +29,7 @@ xyplot.list(x, data = NULL, ..., FUN = xyplot,
     Note that \code{xyplot.list} defaults to same y scales. Set to
     \code{NA} to leave them alone. }
   \item{layout}{ value for \code{layout} of the new plot; see
-    \code{\link{xyplot}}. }
+    \code{\link[lattice]{xyplot}}. }
   \item{merge.legends}{ to keep keys or legends from all plots, not just
     the first. If multiple legends share the same \code{"space"}, they are
     packed together horizontally or vertically. }
@@ -43,11 +43,11 @@ xyplot.list(x, data = NULL, ..., FUN = xyplot,
   This mechanism attempts to merge the panels from multiple trellis
   objects into one. The same effect could generally be achieved by
   either a custom panel function (where the display depends on
-  \code{packet.number()}), or using \code{\link{print.trellis}}
+  \code{packet.number()}), or using \code{\link[lattice]{print.trellis}}
   to display multiple trellis objects. However, in some cases it is more
   convenient to use \code{c()}. Furthermore, it can be useful to
   maintain the display as a standard lattice display, rather than a
-  composite using \code{\link{print.trellis}}, to simplify
+  composite using \code{\link[lattice]{print.trellis}}, to simplify
   further interaction.
 
   Many properties of the display, such as titles, axis settings
@@ -68,9 +68,9 @@ xyplot.list(x, data = NULL, ..., FUN = xyplot,
 \author{ Felix Andrews \email{felix@nfrac.org} }
 \seealso{
   \code{\link{marginal.plot}} was the original motivating application,
-  \code{\link{print.trellis}},
-  \code{\link{update.trellis}},
-  \code{\link{trellis.object}}
+  \code{\link[lattice]{print.trellis}},
+  \code{\link[lattice]{update.trellis}},
+  \code{\link[lattice]{trellis.object}}
 }
 \examples{
 

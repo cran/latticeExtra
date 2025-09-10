@@ -3,7 +3,7 @@
 \alias{panel.levelplot.points}
 \title{ Panel functions for level-coded irregular points }
 \description{
-  These panel functions for \code{\link{levelplot}}
+  These panel functions for \code{\link[lattice]{levelplot}}
   can represent irregular (x, y) points with a color covariate.
   \code{panel.levelplot.points} simply draws color-coded points.
   \code{panel.voronoi} uses the \pkg{interp} or \pkg{deldir} package to
@@ -29,9 +29,9 @@ panel.levelplot.points(x, y, z, subscripts = TRUE, at = pretty(z),
   \item{x, y, z}{ an irregular set of points at locations (x, y) with
     value z. }
   \item{subscripts}{ integer vector indicating what subset of x, y and z
-    to draw. Typically passed by \code{\link{levelplot}}. }
+    to draw. Typically passed by \code{\link[lattice]{levelplot}}. }
   \item{at, col.regions, alpha.regions}{ color scale definition;
-    see \code{\link{panel.levelplot}}. }
+    see \code{\link[lattice]{panel.levelplot}}. }
   \item{points}{ whether to draw the (x, y) points. }
   \item{border}{ color for polygon borders. }
   \item{na.rm}{ if \code{TRUE}, points with missing \code{z} values will
@@ -49,7 +49,7 @@ panel.levelplot.points(x, y, z, subscripts = TRUE, at = pretty(z),
   \item{backend}{ Character string specifying backend package to use to
     calculate the Voronoi mosaic. Defaults to \code{"interp"}.}
   \item{\dots}{Additional arguments; passed to
-    \code{\link{panel.xyplot}} if \code{points = TRUE}. }
+    \code{\link[lattice]{panel.xyplot}} if \code{points = TRUE}. }
   \item{pch, col.symbol}{ symbol and border color for points.
     A filled symbol should be used, i.e. in the range 21-25. }
   \item{shrink}{ Ignored. }
@@ -72,7 +72,7 @@ panel.levelplot.points(x, y, z, subscripts = TRUE, at = pretty(z),
 }
 \author{ Felix Andrews \email{felix@nfrac.org} }
 \seealso{ \code{\link{tileplot}},
-  \code{\link{panel.levelplot}},
+  \code{\link[lattice]{panel.levelplot}},
   \code{\link[deldir]{deldir}}  }
 \examples{
 ## a variant of Figure 5.6 from Sarkar (2008)

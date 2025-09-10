@@ -48,17 +48,17 @@ panel.qqmath.xyarea(x, y = NULL, f.value = NULL, distribution = qnorm,
     \code{col.line} overrides \code{col}.
   }
   \item{\dots}{
-    further arguments passed on to \code{\link{panel.polygon}}.
+    further arguments passed on to \code{\link[lattice]{panel.polygon}}.
     For \code{panel.qqmath.xyarea}, passed to \code{panel.xyarea}.
   }
   \item{fill}{
     ignored; use \code{col} instead.
   }
   \item{panel.groups}{
-    used in \code{\link{panel.superpose}}.
+    used in \code{\link[lattice]{panel.superpose}}.
   }
   \item{f.value, distribution, qtype, tails.n}{
-    as in \code{\link{panel.qqmath}}.
+    as in \code{\link[lattice]{panel.qqmath}}.
   }
 }
 \details{
@@ -68,8 +68,8 @@ panel.qqmath.xyarea(x, y = NULL, f.value = NULL, distribution = qnorm,
   Felix Andrews \email{felix@nfrac.org}
 }
 \seealso{
-  \code{\link{panel.xyplot}},
-  \code{\link{panel.polygon}}
+  \code{\link[lattice]{panel.xyplot}},
+  \code{\link[lattice]{panel.polygon}}
 }
 \examples{
 xyplot(sunspot.year, panel = panel.xyarea, origin = 0,

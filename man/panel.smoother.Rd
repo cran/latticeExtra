@@ -62,7 +62,7 @@ panel.smoother(x, y, form = y ~ x, method = "loess", ...,
   Based on \code{\link[ggplot2]{stat_smooth}} by Hadley Wickham.
 }
 \seealso{
-  \code{\link{panel.loess}},
+  \code{\link[lattice]{panel.loess}},
   \code{\link{panel.quantile}},
   \code{\link[ggplot2]{stat_smooth}}
 }

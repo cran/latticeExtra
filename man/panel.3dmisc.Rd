@@ -88,8 +88,8 @@ panel.3dtext(x, y, z, labels = seq_along(x),
 
 \author{ Deepayan Sarkar \email{deepayan.sarkar@gmail.com}}
 \seealso{
-  \code{\link{cloud}},
-  \code{\link{panel.cloud}}
+  \code{\link[lattice]{cloud}},
+  \code{\link[lattice]{panel.cloud}}
 }
 
 \examples{

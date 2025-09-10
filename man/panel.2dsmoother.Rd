@@ -7,7 +7,7 @@
   Plot a smooth approximation, using \code{\link{loess}} by default, of
   one variable (\code{z}) against two others (\code{x} and \code{y}).
 
-  This panel function should be used with a \code{\link{levelplot}}.
+  This panel function should be used with a \code{\link[lattice]{levelplot}}.
 }
 \usage{
 panel.2dsmoother(x, y, z, subscripts = TRUE,
@@ -30,7 +30,7 @@ panel.2dsmoother(x, y, z, subscripts = TRUE,
     data indices for the current packet, as passed in by \code{levelplot}.
   }
   \item{\dots}{
-    further arguments passed on to \code{\link{panel.levelplot}}.
+    further arguments passed on to \code{\link[lattice]{panel.levelplot}}.
   }
   \item{args}{
     a list of further arguments to the model function (\code{method}).

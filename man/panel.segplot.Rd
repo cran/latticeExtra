@@ -53,7 +53,7 @@ panel.segplot(x, y, z, level = NULL, subscripts,
     \code{centers} are plotted.  Defaults to the corresponding
     parameters for the segment.
   }
-  \item{col.regions}{ vector of colors as in \code{\link{levelplot}} }
+  \item{col.regions}{ vector of colors as in \code{\link[lattice]{levelplot}} }
   \item{band.height}{ height of rectangles (applicable if
     \code{draw.bands} is \code{TRUE} }
 
@@ -64,7 +64,7 @@ panel.segplot(x, y, z, level = NULL, subscripts,
 
   \item{segments.fun}{ function used to plot segments when
     \code{draw.bands} is \code{FALSE}.  The default is to use
-    \code{\link{panel.segments}}, but \code{\link{panel.arrows}} is a
+    \code{\link[lattice]{panel.segments}}, but \code{\link[lattice]{panel.arrows}} is a
     useful alternative (arguments to \code{segments.fun} can be provided
     via the \code{\dots} argument, see example for
     \code{\link{segplot}}).}

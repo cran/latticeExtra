@@ -65,16 +65,16 @@ segplot(x, data, \dots)
   The \code{levelplot} function from the lattice package is used to
   internally to implement this function.  In particular, the colorkey
   mechanism is used as it is, and documentation for
-  \code{\link{levelplot}} should be consulted to learn how to
+  \code{\link[lattice]{levelplot}} should be consulted to learn how to
   fine tune it.
 }
 
 
 \value{
   An object of class \code{"trellis"}. The
-  \code{\link[=update.trellis]{update}} method can be used to
+  \code{\link[lattice:update.trellis]{update}} method can be used to
   update components of the object and the
-  \code{\link[=print.trellis]{print}} method (usually called by
+  \code{\link[lattice:print.trellis]{print}} method (usually called by
   default) will plot it on an appropriate plotting device.
 }
 
@@ -87,10 +87,10 @@ segplot(x, data, \dots)
   suitably. }
 
 \seealso{
-  \code{\link{Lattice}},
+  \code{\link[lattice]{Lattice}},
   \code{\link{panel.segplot}},
-  \code{\link{levelplot}},
-  \code{\link{xyplot}}
+  \code{\link[lattice]{levelplot}},
+  \code{\link[lattice]{xyplot}}
 }
 
 

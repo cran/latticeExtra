@@ -26,7 +26,7 @@ axis.grid(side = c("top", "bottom", "left", "right"),
 }
 \arguments{
   \item{\dots}{
-    further arguments passed on to \code{\link{simpleTheme}} to
+    further arguments passed on to \code{\link[lattice]{simpleTheme}} to
     over-ride defaults.
   }
   \item{n}{
@@ -41,7 +41,7 @@ axis.grid(side = c("top", "bottom", "left", "right"),
     for a continuous color scale.
   }
   \item{side, ticks, scales, components, line.col}{
-    see \code{\link{axis.default}}. Typically \code{axis.grid} is not
+    see \code{\link[lattice]{axis.default}}. Typically \code{axis.grid} is not
     called directly so these should not be needed.
   }
 }
@@ -49,10 +49,10 @@ axis.grid(side = c("top", "bottom", "left", "right"),
 \value{
   \code{ggplot2like()} produces a list of settings which can be
   passed as the \code{par.settings} argument to a high-level Lattice
-  plot, or to \code{\link{trellis.par.set}}.
+  plot, or to \code{\link[lattice]{trellis.par.set}}.
   \code{ggplot2like.opts()} produces a list which can be passed as the
   \code{lattice.options} argument to a high-level Lattice plot, or to
-  \code{\link{lattice.options}}. 
+  \code{\link[lattice]{lattice.options}}. 
 
 }
 \author{

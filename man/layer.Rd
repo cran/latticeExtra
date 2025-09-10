@@ -59,7 +59,7 @@ flattenPanel(object)
   \item{packets, rows, columns, groups}{
     restricts the layer to draw only in specified packets (which refer
     to individual panels, but are independent of their layout), or rows
-    or columns of the trellis layout (\code{\link{trellis.currentLayout}}).
+    or columns of the trellis layout (\code{\link[lattice]{trellis.currentLayout}}).
     For group layers (using \code{glayer} or \code{superpose = TRUE}),
     the groups can be restricted also, by specifying group numbers (or
     group values, as character strings). Negative values exclude the
@@ -83,7 +83,7 @@ flattenPanel(object)
     layer, or use \code{theme} directly.
   }
   \item{theme}{
-    a style specification to be passed to \code{\link{trellis.par.set}}
+    a style specification to be passed to \code{\link[lattice]{trellis.par.set}}
     which has effect only while drawing the layer. One can pass a whole
     theme specification list, such as \code{theme = custom.theme()}, or
     a more specific list, such as \code{theme = simpleTheme(col = "red")}.
@@ -96,7 +96,7 @@ flattenPanel(object)
   \item{superpose}{
     if \code{TRUE}, the layer will be drawn once for
     each level of any \code{groups} in the plot, using
-    \code{\link{panel.superpose}}. This defaults to \code{TRUE} in the
+    \code{\link[lattice]{panel.superpose}}. This defaults to \code{TRUE} in the
     convenience functions \code{glayer()} and \code{glayer_()}.
   }
   \item{object}{ a trellis object. }
@@ -158,7 +158,7 @@ flattenPanel(object)
 }
 \author{ Felix Andrews \email{felix@nfrac.org} }
 \seealso{
-  \code{\link{update.trellis}},
+  \code{\link[lattice]{update.trellis}},
   \code{\link{as.layer}} for overlaying entire plots
 }
 \examples{

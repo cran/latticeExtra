@@ -24,7 +24,7 @@ panel.xyimage(x, y,
   \item{subscripts}{
     An integer vector of subscripts giving indices of the \code{x} and
     \code{y} values in the original data source.  See the corresponding
-    entry in \code{\link{xyplot}} for details.
+    entry in \code{\link[lattice]{xyplot}} for details.
   }
   \item{groups}{
     A factor defining groups.
@@ -44,13 +44,13 @@ panel.xyimage(x, y,
   }
   \item{grid}{
     A logical flag, character string, or list specifying whether and how
-    a background grid should be drawn. See \code{\link{panel.xyplot}}
+    a background grid should be drawn. See \code{\link[lattice]{panel.xyplot}}
     for details.
   }
   \item{abline}{
     A numeric vector or list, specifying arguments arguments for
-    \code{\link{panel.abline}}, which is called with those
-    arguments. See \code{\link{panel.xyplot}}
+    \code{\link[lattice]{panel.abline}}, which is called with those
+    arguments. See \code{\link[lattice]{panel.xyplot}}
     for details.
   }
 }
@@ -65,7 +65,7 @@ panel.xyimage(x, y,
   Deepayan Sarkar
 }
 \seealso{
-  \code{\link{panel.xyplot}}
+  \code{\link[lattice]{panel.xyplot}}
 }
 \examples{
 \dontrun{

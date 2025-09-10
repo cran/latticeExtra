@@ -4,14 +4,14 @@
   Draw a simple key inside a panel of a lattice plot.
 }
 \description{
-  Draw a \code{\link{simpleKey}} inside a panel of a lattice plot.
+  Draw a \code{\link[lattice]{simpleKey}} inside a panel of a lattice plot.
 }
 \usage{
 panel.key(text, ..., corner = c(0, 1), x = corner[1], y = corner[2])
 }
 \arguments{
   \item{text, \dots}{
-    entries in the \code{\link{simpleKey}}.
+    entries in the \code{\link[lattice]{simpleKey}}.
   }
   \item{corner, x, y}{
     defines the position of the key within the panel viewport. These are
@@ -20,9 +20,9 @@ panel.key(text, ..., corner = c(0, 1), x = corner[1], y = corner[2])
   }
 }
 \seealso{
-  \code{\link{simpleKey}},
-  \code{\link{draw.key}},
-  \code{\link{xyplot}}
+  \code{\link[lattice]{simpleKey}},
+  \code{\link[lattice]{draw.key}},
+  \code{\link[lattice]{xyplot}}
 }
 \examples{
 xyplot(ozone ~ wind | equal.count(temperature, 2),

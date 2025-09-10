@@ -28,15 +28,15 @@ custom.theme.2(\dots)
   \item{reference}{ a color for reference lines and such  }
   \item{bg}{ a background color }
   \item{fg}{ a foreground color, primarily for annotation }
-  \item{\dots}{ further arguments passed to \code{\link{simpleTheme}}
+  \item{\dots}{ further arguments passed to \code{\link[lattice]{simpleTheme}}
     and used to modify the theme. }
 }
 \value{
 
   A list that can be supplied to
-  \code{\link{trellis.par.get}} or as the
+  \code{\link[lattice]{trellis.par.get}} or as the
   \code{theme} argument to
-  \code{\link{trellis.device}}.
+  \code{\link[lattice]{trellis.device}}.
 
 }
 \author{ Deepayan Sarkar }

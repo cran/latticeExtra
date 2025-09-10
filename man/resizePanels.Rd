@@ -43,8 +43,7 @@ resizePanels(x, h = 1, w = 1)
 }
 \author{ Deepayan Sarkar }
 
-\seealso{ \code{\link{Lattice}},
-  \code{\link{xyplot}} }
+\seealso{ \code{\link[lattice]{Lattice}}, \code{\link[lattice]{xyplot}} }
 
 \examples{
 

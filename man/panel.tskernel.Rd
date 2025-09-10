@@ -38,7 +38,7 @@ simpleSmoothTs(x, ...)
     i.e. to have multiple columns.
   }
   \item{\dots}{
-    further arguments passed on to \code{\link{panel.lines}}.
+    further arguments passed on to \code{\link[lattice]{panel.lines}}.
   }
   \item{width}{
     nominal width of the smoothing kernel in time steps. In the default
@@ -86,7 +86,7 @@ simpleSmoothTs(x, ...)
 \seealso{
   \code{\link{kernel}},
   \code{\link{filter}},
-  \code{\link{xyplot.ts}}
+  \code{\link[lattice]{xyplot.ts}}
 }
 \examples{
 ## a Gaussian-like filter (contrast with c = 1 or c = 2)

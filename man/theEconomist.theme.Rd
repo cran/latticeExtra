@@ -38,7 +38,7 @@ asTheEconomist(x, ...,
     color for panel boxes, strip outlines, and axis ticks.
   }
   \item{\dots}{
-    further arguments passed to \code{\link{simpleTheme}}
+    further arguments passed to \code{\link[lattice]{simpleTheme}}
     and used to modify the theme.
   }
   \item{x}{
@@ -46,7 +46,7 @@ asTheEconomist(x, ...,
     function in the Lattice framework.
   }
   \item{type}{
-    plot type, relevant for \code{xyplot}s, see \code{\link{panel.xyplot}}.
+    plot type, relevant for \code{xyplot}s, see \code{\link[lattice]{panel.xyplot}}.
   }
   \item{ylab, xlab}{
     axis labels, blank by default.
@@ -55,7 +55,7 @@ asTheEconomist(x, ...,
     style settings, defaulting to \code{theEconomist.theme}.
   }
   \item{par.strip.text}{
-    see \code{\link{xyplot}}.
+    see \code{\link[lattice]{xyplot}}.
   }
 }
 \details{
